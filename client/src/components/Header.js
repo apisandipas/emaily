@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
   render () {
     return (
-      <div> Header </div>
+      <nav>
+        <div className='nav-wrapper'>
+          <Link to='/' className='brand-logo'>Emaily</Link>
+          <ul id='nav-mobile' className='right'>
+            <li><a >Login With Google</a></li>
+          </ul>
+        </div>
+      </nav>
     )
   }
 }
