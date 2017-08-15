@@ -4,14 +4,14 @@ import { connect } from 'react-redux'
 import * as actions from '../actions'
 
 import Header from './Header'
+import Landing from './Landing'
 
 const Dashboard = () => <div><h2>Dashboard</h2></div>
 const SurveyNew = () => <div><h2>SurveyNew</h2></div>
-const Landing = () => <div><h2>Landing</h2></div>
 
 class App extends Component {
   componentDidMount () {
-
+    this.props.fetchUser()
   }
 
   render () {
