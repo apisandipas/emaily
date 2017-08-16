@@ -19,7 +19,8 @@
     "react-scripts": "1.0.10",
     "react-stripe-checkout": "^2.6.3",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "materialize-css": "^0.100.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,6 +29,5 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "materialize-css": "^0.100.1"
   }
 }
