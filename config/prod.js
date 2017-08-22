@@ -6,7 +6,8 @@ const {
   MONGO_URI,
   COOKIE_KEY,
   STRIPE_PUBLISHABLE_KEY,
-  STRIPE_SECRET_KEY
+  STRIPE_SECRET_KEY,
+  SENDGRID_API_KEY
 } = process.env
 
 module.exports = {
@@ -15,5 +16,6 @@ module.exports = {
   mongoURI: MONGO_URI,
   cookieKey: COOKIE_KEY,
   stripePublishableKey: STRIPE_PUBLISHABLE_KEY,
-  stripeSecretKey: STRIPE_SECRET_KEY
+  stripeSecretKey: STRIPE_SECRET_KEY,
+  sendGridKey: SENDGRID_API_KEY
 }
