@@ -1,4 +1,3 @@
-import 'materialize-css/dist/css/materialize.min.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
@@ -9,6 +8,8 @@ import App from './components/App'
 import reducers from './reducers'
 import axios from 'axios'
 window.axios = axios
+
+require('materialize-css/dist/css/materialize.min.css')
 
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk))
 
